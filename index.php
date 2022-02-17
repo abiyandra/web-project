@@ -9,11 +9,13 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-
-    <title>Hello, world!</title>
+<!-- my css -->
+<link rel="stylesheet" href="style.css">
+<!-- akhir css -->
+    <title>STEI BCM</title>
   </head>
   <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-success fixed-top">
   <img src="4.png" width="50">
   <a class="navbar-brand" href="https://elearning.steibcm.ac.id/?redirect=0">STEI BCM</a> 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,27 +28,31 @@
         <a class="nav-link text-dark" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-danger" href="#">Link</a>
+        <a class="nav-link text-danger" href="#">Tentang kampus</a>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
-          Dropdown
+        <a class="nav-link dropdown-toggle text-warning" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+          Info
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item text-success" href="#">Action</a>
-          <a class="dropdown-item text-warning" href="#">Another action</a>
+          <a class="dropdown-item text-success" href="#">kontak kami</a>
+          <a class="dropdown-item text-warning" href="#"></a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item text-danger" href="#">Something else here</a>
+          <a class="dropdown-item text-danger" href="#"></a>
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link item-saction text-warning" href="https://elearning.steibcm.ac.id/login/index.php">E-Learning</a>
+        <a class="nav-link item-saction text-primary" href="#">Pengumuman</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="#">Berita</a>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
       <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
     </form>
+    
   </div>
 </nav>
 
@@ -73,7 +79,7 @@
 <div class="container">
   <div class="row">
     <div class="col-9">
-    <img src="4.jpg" class="rounded float-left" alt="img" width="400" height="400">
+    <img src="4.jpg" class="rounded float-left p-4" alt="img" width="400" height="400">
       <p>Sekolah Tinggi Ekonomi Islam (STIE) Bina Cipta Madani (BCM) kampus pertama berbasis syariah di kabupaten Karawang hadir di Komplek Bizpark No B 18 Jalan Interchange Tol Karawang Barat Desa Purwadana Teluk Jambe Timur Karawang.
 
         STIE yang bernaung di Bawah Yayasan Bina Cipta Madani Ingin membantu warga masyarakat Karawang yang ingin melanjutkan jenjang pendidikan berbasis syariah, terlebih setelah pemerintah berwacana untuk para bidan-bidan dan para pengajar TK serta Paud agar memiliki ijazah profesi.
@@ -84,14 +90,14 @@
     <div class="list-content">
 
             <article class="list-content__item">
-              <h3>Trending News</h3>
+              <h4>Trending News</h4>
             <div class="media">
                 <div class="media__text text-list">
                     <span class="text-list__data ">#1</span>
-                    <h3 class="media__title">
+                    <h6 class="media__title">
                         <a dtr-evt="box artikel terpopuler" dtr-sec="" dtr-act="terpopuler" onclick="_pt(this)" dtr-idx="1" dtr-id="5902546" dtr-ttl="Jurusan di Unair Ini Satu-satunya di Indonesia, Tertarik?" href="https://www.detik.com/edu/perguruan-tinggi/d-5902546/jurusan-di-unair-ini-satu-satunya-di-indonesia-tertarik" class="media__link md-opjjpmhoiojifppkkcdabiobhakljdgm_doc">
                             Jurusan di Unair Ini Satu-satunya di Indonesia, Tertarik?                        </a>
-                    </h3>
+                    </h6>
                 </div>
             </div>
         </article>
@@ -99,10 +105,10 @@
             <div class="media">
                 <div class="media__text text-list">
                     <span class="text-list__data ">#2</span>
-                    <h3 class="media__title">
+                    <h6 class="media__title">
                         <a dtr-evt="box artikel terpopuler" dtr-sec="" dtr-act="terpopuler" onclick="_pt(this)" dtr-idx="2" dtr-id="5902537" dtr-ttl="Undip Siapkan 2000 Kursi Lebih di SNMPTN 2022, Mau Bocoran Tips Lolosnya?" href="https://www.detik.com/edu/perguruan-tinggi/d-5902537/undip-siapkan-2000-kursi-lebih-di-snmptn-2022-mau-bocoran-tips-lolosnya" class="media__link md-opjjpmhoiojifppkkcdabiobhakljdgm_doc">
                             Undip Siapkan 2000 Kursi Lebih di SNMPTN 2022, Mau Bocoran Tips Lolosnya?                        </a>
-                    </h3>
+                    </h5>
                 </div>
             </div>
         </article>
@@ -110,10 +116,10 @@
             <div class="media">
                 <div class="media__text text-list">
                     <span class="text-list__data ">#3</span>
-                    <h3 class="media__title">
+                    <h6 class="media__title">
                         <a dtr-evt="box artikel terpopuler" dtr-sec="" dtr-act="terpopuler" onclick="_pt(this)" dtr-idx="3" dtr-id="5902530" dtr-ttl="Sejarah Istilah Nusantara, Nama Calon Ibu Kota Negara" href="https://www.detik.com/edu/detikpedia/d-5902530/sejarah-istilah-nusantara-nama-calon-ibu-kota-negara" class="media__link md-opjjpmhoiojifppkkcdabiobhakljdgm_doc">
                             Sejarah Istilah Nusantara, Nama Calon Ibu Kota Negara                        </a>
-                    </h3>
+                    </h5>
                 </div>
             </div>
         </article>
@@ -121,10 +127,10 @@
             <div class="media">
                 <div class="media__text text-list">
                     <span class="text-list__data ">#4</span>
-                    <h3 class="media__title">
+                    <h6 class="media__title">
                         <a dtr-evt="box artikel terpopuler" dtr-sec="" dtr-act="terpopuler" onclick="_pt(this)" dtr-idx="4" dtr-id="5902854" dtr-ttl="18 Pelajar Bali Lolos Beasiswa Program Jokowi, Bisa Kuliah di Luar Negeri" href="https://www.detik.com/edu/beasiswa/d-5902854/18-pelajar-bali-lolos-beasiswa-program-jokowi-bisa-kuliah-di-luar-negeri" class="media__link md-opjjpmhoiojifppkkcdabiobhakljdgm_doc">
                             18 Pelajar Bali Lolos Beasiswa Program Jokowi, Bisa Kuliah di Luar Negeri                        </a>
-                    </h3>
+                    </h6>
                 </div>
             </div>
         </article>
@@ -132,10 +138,10 @@
             <div class="media">
                 <div class="media__text text-list">
                     <span class="text-list__data ">#5</span>
-                    <h3 class="media__title">
+                    <h6 class="media__title">
                         <a dtr-evt="box artikel terpopuler" dtr-sec="" dtr-act="terpopuler" onclick="_pt(this)" dtr-idx="5" dtr-id="5902016" dtr-ttl="Jadwal Puasa Ramadhan 2022, Berapa Hari Lagi Ya?" href="https://www.detik.com/edu/detikpedia/d-5902016/jadwal-puasa-ramadhan-2022-berapa-hari-lagi-ya" class="media__link md-opjjpmhoiojifppkkcdabiobhakljdgm_doc">
                             Jadwal Puasa Ramadhan 2022, Berapa Hari Lagi Ya?                        </a>
-                    </h3>
+                    </h6>
                 </div>
             </div>
         </article>
@@ -154,58 +160,60 @@
   </div>
 </div>
 <br></br>
-<div class="container">
-    <div class="row">
-        <div class="col-md-12">
-            <div class="row">
-            <div class="card-group">
 
-  <div class="card">
+<div class="container">
+  <div class="row">
+    <div class="col-md-3">
+    <div class="card">
     <img src="10.jpg" class="card-img-top" alt="img" width="">
     <div class="card-body">
-      <h5 class="card-title">Mengenang Bu Kasur, Tokoh Pendidikan yang Jadi Google Doodle Hari Ini</h5>
-      <p class="card-text">Kelahiran Bu Kasur diabadikan dalam Google Doodle Minggu (16/1/2022). Google membuat doodle Bu Kasur dikelilingi anak-anak yang tengah bermain.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-      <a class="btn btn-primary btn-lg" href="https://www.kompas.com/tren/read/2022/01/16/060014565/mengenang-bu-kasur-tokoh-pendidikan-yang-jadi-google-doodle-hari-ini" role="button">Click</a>
+      <h5 class="card-title"><a class="card-title" href="https://www.kompas.com/tren/read/2022/01/16/060014565/mengenang-bu-kasur-tokoh-pendidikan-yang-jadi-google-doodle-hari-ini">Mengenang Bu Kasur, Tokoh Pendidikan yang Jadi Google Doodle Hari Ini</a></h5>
+     
+     
     </div>
   </div>
-  <div class="card">
+    </div>
+    <div class="col-md-3">
+    <div class="card">
     <img src="7.jpg" class="card-img-top" alt="...">
     <div class="card-body">
-      <h5 class="card-title">Putus Sekolah Akibat Pandemi Covid-19 Naik 10 Kali Lipat, Ini Kata Kemendikbud</h5>
-      <p class="card-text">Banyak sekali tekanan dari orang tua khususnya tekanan ekonomi yang memaksa mereka untuk mengajak anaknya bekerja.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-      <a class="btn btn-primary btn-lg" href="https://www.kompas.com/wiken/read/2022/01/16/200036281/putus-sekolah-akibat-pandemi-covid-19-naik-10-kali-lipat-ini-kata" role="button">click</a>
+      <h5 class="card-title"><a class="card-title" href="https://www.kompas.com/wiken/read/2022/01/16/200036281/putus-sekolah-akibat-pandemi-covid-19-naik-10-kali-lipat-ini-kata">Putus Sekolah Akibat Pandemi Covid-19 Naik 10 Kali Lipat, Ini Kata Kemendikbud</a></h5>
+     
+     
     </div>
   </div>
-  <div class="card">
+    </div>
+    <div class="col-md-3">
+    <div class="card">
     <img src="60.jpg" class="card-img-top" alt="img">
     <div class="card-body">
-      <h5 class="card-title">5-10 Tahun ke Depan, Indonesia Butuh 15 Juta "Coding Engineer"</h5>
-      <p class="card-text">Seiring dengan perkembangan teknologi, kini industri game jumlahnya sangat banyak. </p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-      <a class="btn btn-primary btn-lg" href="https://www.kompas.com/edu/read/2022/01/10/150740971/5-10-tahun-ke-depan-indonesia-butuh-15-juta-coding-engineer" role="button">click</a>
+      <h5 class="card-title"><a class="card-title" href="https://www.kompas.com/edu/read/2022/01/10/150740971/5-10-tahun-ke-depan-indonesia-butuh-15-juta-coding-engineer">5-10 Tahun ke Depan, Indonesia Butuh 15 Juta "Coding Engineer</a></h5>
+      
     </div>
   </div>
-  <div class="card">
+    </div>
+    <div class="col-md-3">
+    <div class="card">
     <img src="80.jpg" class="card-img-top" alt="...">
     <div class="card-body">
-      <h5 class="card-title">Jokowi Klaim Gelontorkan Rp 20 Triliun untuk Bantuan Pendidikan, Selama 2021</h5>
-      <p class="card-text">JAKARTA, KOMPAS.com - Presiden RI, Joko Widodo atau Jokowi menyatakan, pemerintah sudah menggelontorkan sedikitnya Rp 20 triliun untuk bantuan pendidikan</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-      <a class="btn btn-primary btn-lg" href="https://nasional.kompas.com/read/2022/01/10/12234051/jokowi-klaim-gelontorkan-rp-20-triliun-untuk-bantuan-pendidikan-selama-2021" role="button">click</a>
+      <h5 class="card-title"><a class="card-title" href="https://nasional.kompas.com/read/2022/01/10/12234051/jokowi-klaim-gelontorkan-rp-20-triliun-untuk-bantuan-pendidikan-selama-2021">Jokowi Klaim Gelontorkan Rp 20 Triliun untuk Bantuan Pendidikan, Selama 2021</a></h5>
+    </div>
+  </div>
     </div>
   </div>
 </div>
 <br></br>
-<br></br>
+<!-- batas editing -->
+<div class="container">
+    <div class="row">
+        
 
 <div class="">
     <div class="row">
         <div class="col-md-8">
             <div class="row">
 
-                <div class="col-md-4">
+                <div class="col-md-4 p-4">
                 <div class="card">
   <img src="https://assets.pikiran-rakyat.com/crop/0x0:0x0/220x132/photo/2021/12/11/1509045376.jpg" class="card-img-top" alt="...">
   <div class="card-body">
@@ -214,7 +222,7 @@
 </div>
               </div>
   
-                <div class="col-md-4">
+                <div class="col-md-4 p-4">
                 <div class="card">
   <img src="https://assets.pikiran-rakyat.com/crop/227x310:2838x2268/703x385/filters:watermark(file/2017/cms/img/watermark.png,-0,0,0)/photo/2021/12/09/2695517634.jpg" class="card-img-top" alt="...">
   <div class="card-body">
@@ -224,17 +232,17 @@
   </div>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-4 p-4">
                 <div class="card">
   <img src="https://akcdn.detik.net.id/community/media/visual/2022/01/03/yuk-intip-suasana-pembelajaran-tatap-muka-100-di-jakarta-8.jpeg?w=700&q=90" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title"><a class="card title" href="https://www.detik.com/edu/sekolah/d-5890844/kata-pakar-soal-kurikulum-prototipe-langkah-nadiem-terobosan-besar">Kata Pakar Soal Kurikulum Prototipe: Langkah Nadiem Terobosan besar</a></h5>
+    <h5><a class="card-title" href="https://www.detik.com/edu/sekolah/d-5890844/kata-pakar-soal-kurikulum-prototipe-langkah-nadiem-terobosan-besar">Kata Pakar Soal Kurikulum Prototipe: Langkah Nadiem Terobosan besar</a></h5>
    
     </div>
   </div> 
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-4 p-4">
                 <div class="card">
   <img src="https://assets.pikiran-rakyat.com/crop/84x49:1108x689/703x385/filters:watermark(file/2017/cms/img/watermark.png,-0,0,0)/photo/2021/12/14/177745371.jpeg" class="card-img-top" alt="...">
   <div class="card-body">
@@ -243,7 +251,7 @@
   </div>   
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-4 p-4">
                 <div class="card">
   <img src="https://assets.pikiran-rakyat.com/crop/0x96:852x664/703x385/photo/2021/11/28/3902959878.jpg" class="card-img-top" alt="...">
   <div class="card-body">
@@ -253,7 +261,7 @@
   </div>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-4 p-4">
                 <div class="card">
   <img src="https://assets.pikiran-rakyat.com/crop/0x0:0x0/703x385/photo/2021/11/23/3424539926.jpg" class="card-img-top" alt="...">
   <div class="card-body">
@@ -270,8 +278,8 @@
         <div class="col-md-4">
             <div class="row">
 
-            <div class="col-md-6">
-            <ul class="list-group">
+            <div class="col-lg-6">
+            <ul class="list-group p-4">
   <li class="list-group-item active" aria-current="true">announcement</li>
   <li class="list-group-item">pada hari kamis mengadakan...</li>
   <li class="list-group-item">wisudah di selnggarkan pad...</li>
@@ -283,14 +291,11 @@
 
             <div>
           
-            <div class="col-md-6">
+            <div class="col-lg-6">
             <script src="https://kit.fontawesome.com/ea2d5485e3.js" crossorigin="anonymous"></script>
             
             </div>
            
-<br></br>
-<bbr></br>
-<br></br>
 <div class="container">
   <div class="row">
     <div class="col-0">
@@ -301,22 +306,21 @@
   <li class="media">
     <img src="https://akcdn.detik.net.id/community/media/visual/2021/11/01/polandia-7.jpeg?w=700&q=90" class="mr-3" alt="img"width="100" height="100">
     <div class="media-body">
-      <a class="mt-0 mb-1" href="https://www.detik.com/edu/perguruan-tinggi/d-5901662/10-tempat-kuliah-di-luar-negeri-yang-dikenal-murah-negara-pilihan-kamu-bukan"><h5>10 Tempat Kuliah di Luar Negeri yang Dikenal Murah, Negara Pilihan Kamu Bukan?</5></a>
-      <p>Apakah kamu bercita-cita kuliah di luar negeri? ternyata biaya pendidikan tinggi di negara lain tidak selalu mahal. Beberapa negara justru dikenal sebagai tempat kuliah yang murah untuk para pelajar.</p>
+      <a class="mt-0 mb-1" href="https://www.detik.com/edu/perguruan-tinggi/d-5901662/10-tempat-kuliah-di-luar-negeri-yang-dikenal-murah-negara-pilihan-kamu-bukan"><h5>10 Tempat Kuliah di Luar Negeri yang Dikenal Murah, Negara Pilihan Kamu Bukan?</a></5></a>
+      <p></p>
     </div>
   </li>
   <li class="media my-4">
-    <img src="" class="mr-3" alt="...">
+    <img src="https://asset.kompas.com/crops/3TsEACUfDIi9XKFVTyJddMrw7FY=/79x0:903x549/750x500/data/photo/2021/10/21/6170ed957a4e2.jpg" class="mr-3" alt="img" width="100" height="100">
     <div class="media-body">
-      <h5 class="mt-0 mb-1">List-based media object</h5>
-      <p>Maybe a reason why all the doors are closed. Cause once you’re mine, once you’re mine. Be your teenage dream tonight. Heavy is the head that wears the crown. It's not even a holiday, nothing to celebrate. A perfect storm, perfect storm.</p>
+      <a class="mt-0 mb-1" href="https://www.kompas.com/edu/read/2022/01/22/114703371/semesta-digital-metaverse-pendidikan-di-indonesia"><h5>Semesta Digital Metaverse Pendidikan di Indonesia</a></h5>
+      <p></p>
     </div>
   </li>
   <li class="media">
-    <img src="..." class="mr-3" alt="...">
+    <img src="https://asset.kompas.com/crops/2tTkXuCb15W8S78DgR_aTZVHUB8=/53x15:917x591/750x500/data/photo/2020/08/10/5f3085f389d85.jpeg" class="mr-3" alt="img" width="100" height="100">
     <div class="media-body">
-      <h5 class="mt-0 mb-1">List-based media object</h5>
-      <p>Are you brave enough to let me see your peacock? There’s no going back. This is the last time you say, after the last line you break. At the eh-end of it all.</p>
+      <a class="mt-0 mb-1" href="https://megapolitan.kompas.com/read/2022/01/27/12562461/perhimpunan-pendidikan-dan-guru-kami-mohon-pak-anies-hentikan-ptm-100"><h5>Perhimpunan Pendidikan dan Guru: Kami Mohon Pak Anies, Hentikan PTM 100 Persen</a></h5>
     </div>
   </li>
 </ul>
@@ -329,14 +333,36 @@
 </div>
 <br></br>
 
- 
-<div class="card">
-  
-  
-  <div class="card-header">
-   <p class="text-center">@visual code</p>
+<footer class="footer-page bg-dark">
+  <div class="container">
+    <div class="row">
+      <div class="col lg-4 text-white">
+        <h5>Ini footer</h5>
+        <img src="6.png" alt="img" weight="50" height="50">
+        <p>Learning Management System Bina Cipta Madani adalah sistem pembelajaran online yang interaktif. Dosen dapat menyediakan bahan ajar, tugas, quiz, dan forum diskusi pada mata kuliah yang terdaftar</p>
+      </div>
+      <div class="col lg-4 text-white">
+        <h5>Menu</h5>
+        <ul>
+          <li> Html </li>
+          <li> visual stuio code </li>
+          <li> XAMPP </li>
+        </ul>
+      </div>
+      <div class="col lg-4 text-white">
+        <h5>partner</h5>
+        <li> bootstrap </li>
+        <li>  Tag </li>
+        <li> Coding </li>
+      </div>
+    </div>
   </div>
-</div>
+  <div class="footer-copyright">
+    <div class="container text-center text-white">
+      &copy; Design 2022| Abiyandra
+    </div>
+  </div>
+</footer>
 
 
 
